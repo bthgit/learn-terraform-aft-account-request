@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "aftsandbox1@protonmail.com"
-    AccountName               = "sandbox"
+    AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "aftsandbox1@protonmail.com"
     SSOUserFirstName          = "Sandbox"
@@ -12,7 +12,7 @@ module "sandbox" {
 
   account_tags = {
     "Learn Tutorial" = "AFT"
-    "Environment" = "SBX"
+    "Environment" = "sandbox"
   }
 
   change_management_parameters = {
